@@ -27,12 +27,17 @@ class AppKernel extends Kernel
     }
 }
 ```
-### add to config
+
+By default native exif reader is used but you can use [ExitTool](http://www.sno.phy.queensu.ca/~phil/exiftool/)
+
+add to app config these lines for this feature
+
+### Custom 
 
 ```
 #app/config/config.yml
 evlz_php_exif:
-    type: native # or exiftool
+    type: native # default value oexiftool
 ```
 
-if you
+*Notice: lib-exiftool is required*

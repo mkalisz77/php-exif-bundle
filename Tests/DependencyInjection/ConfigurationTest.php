@@ -15,7 +15,6 @@ class ConfigurationTest extends PHPUnit_Framework_TestCase
 
     public function testMissedType()
     {
-        $this->setExpectedException('Symfony\\Component\\Config\\Definition\\Exception\\InvalidConfigurationException');
         $configs = array(
             //empty
         );

@@ -22,12 +22,11 @@ class Configuration implements ConfigurationInterface
         $rootNode
             ->children()
                 ->scalarNode('type')
+                ->defaultValue('native')
                 ->validate()
                     ->ifNotInArray(array('native', 'exiftool'))
                     ->thenInvalid('type %s is not supported')
                 ->end()
-                ->isRequired()
-                ->cannotBeEmpty()
             ->end()
         ;
 
