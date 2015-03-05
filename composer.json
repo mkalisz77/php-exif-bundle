@@ -1,0 +1,30 @@
+{
+    "name": "evlz/php-exif-bundle",
+    "description": "Symfony bundle for miljar/php-exif package",
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/symfony": "~2.4",
+        "miljar/php-exif": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+          "Evlz\\PhpEXIFBundle\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Hanov Ruslan",
+            "email": "hanov.ruslan@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.2.x-dev"
+        }
+    }
+}
