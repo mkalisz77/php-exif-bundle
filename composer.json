@@ -3,7 +3,7 @@
     "description": "Symfony bundle for miljar/php-exif package",
     "require": {
         "php": ">=5.3.3",
-        "symfony/symfony": "~2.4",
+        "symfony/symfony": "~3.0",
         "miljar/php-exif": "~0.5.1"
     },
     "require-dev": {
